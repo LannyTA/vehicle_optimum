@@ -1,0 +1,11 @@
+% global ratio;
+% load basedata.mat;
+% rot_fit=(1230:10:7316);
+% torque_fit=spline(rot_torque(:,1),rot_torque(:,2),rot_fit);
+% rot_torque_fitdata=[rot_fit',torque_fit'];
+% power_fit=spline(rot_torque(:,1),rot_power(:,2),rot_fit);
+% figure;hold on;
+% plot(rot_torque(:,1),rot_power(:,2),'r^',rot_fit,power_fit);
+% plot(rot_torque(:,1),rot_torque(:,2),'r^',rot_fit,torque_fit);
+% xlabel('×ªËÙ£¨R/Min£©');ylabel('×ª¾Ø£¨N*m£©');
+% rot_power_fitdata=[rot_fit',power_fit'];

@@ -1,0 +1,10 @@
+x=map(:,1);
+y=map(:,2);
+z=map(:,3);
+xlin = linspace(min(x),max(x),200);
+ylin = linspace(min(y),max(y),200);
+[X,Y]=meshgrid(xlin,ylin);
+Z = griddata(x,y,z,X,Y,'cubic');
+mesh(X,Y,Z);
+contour(X,Y,Z,[230:5:340],'ShowText','on');
+%plot3(x,y,z,'*');

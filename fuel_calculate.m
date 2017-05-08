@@ -1,0 +1,25 @@
+global fuel_cost_all;
+fuel_1=fuel_muti_equal(11.3,40);
+fuel_2=fuel_muti_acc(14,40,0.72);
+fuel_3=fuel_muti_equal(18,50);
+fuel_4=fuel_muti_acc(16.3,50,0.612);
+fuel_5=fuel_muti_equal(15,60);
+fuel_6=fuel_muti_dec(21.6);
+fuel_cost_all=fuel_1+fuel_2+fuel_3+fuel_4+fuel_5+fuel_6;
+
+% fuel_1=fuel_muti_dec(11);
+% fuel_2=fuel_muti_acc(4,0,1.04*3.6);
+% fuel_3=fuel_muti_equal(8,15);
+% fuel_4=fuel_muti_dec(5);
+% fuel_5=fuel_muti_dec(21);
+% fuel_6=fuel_muti_acc(5,0,0.83*3.6)+fuel_muti_equal(2,15)+fuel_muti_acc(5,15,0.94*3.6);
+% fuel_7=fuel_muti_equal(24,32);
+% fuel_8=fuel_muti_dec(11);
+% fuel_9=fuel_muti_dec(21);
+% fuel_10=fuel_muti_acc(5,0,0.83*3.6)+fuel_muti_equal(2,15)+fuel_muti_acc(9,15,0.62*3.6)+fuel_muti_equal(2,35)+fuel_muti_acc(8,35,0.62*3.6);
+% fuel_11=fuel_muti_equal(12,50);
+% fuel_12=fuel_muti_dec(8);
+% fuel_13=fuel_muti_equal(13,35);
+% fuel_14=fuel_muti_equal(2,35)+fuel_muti_dec(10);
+% fuel_15=fuel_muti_dec(7);
+% fuel_cost_all=fuel_1+fuel_2+fuel_3+fuel_4+fuel_5+fuel_6+fuel_7+fuel_8+fuel_8+fuel_10+fuel_11+fuel_12+fuel_13+fuel_14+fuel_15;
